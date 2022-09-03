@@ -23,7 +23,7 @@
     "file-saver": "^2.0.5",
     "formik": "^2.2.9",
     "framer-motion": "^7.0.1",
-    "next": "^12.2.4",
+    "next": "12.2.4",
     "pdfjs-dist": "^2.6.347",
     "react": "^18.2.0",
     "react-copy-to-clipboard": "^5.1.0",
