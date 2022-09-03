@@ -1,7 +1,7 @@
-import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
+import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import { WorkGridItem } from "../components/grid-item";
 import Section from '../components/section'
-import Image from "next/image";
+
 
 import objectDetection from '../public/images/works/object_detector_eyecatch.png'
 import imgClassifier from '../public/images/works/image_classifier.png'

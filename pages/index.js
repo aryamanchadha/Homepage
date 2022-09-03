@@ -1,5 +1,5 @@
-import {Container, Icon, SimpleGrid, Box, Heading, Image, Link, List, useColorModeValue, Button, ListItem} from '@chakra-ui/react'
-import { useState, component } from 'react'
+import {Container, Icon, Box, Heading, Image, Link, List, useColorModeValue, Button, ListItem} from '@chakra-ui/react'
+import { useState } from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import NextLink from 'next/link'
 import Section from '../components/section'
@@ -12,7 +12,7 @@ import {
     IoLogoGithub,
     IoLogoLinkedin
 } from 'react-icons/io5'
-import { GridItem } from '../components/grid-item'
+
 
 const Page = () => {
     
