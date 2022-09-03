@@ -4,8 +4,8 @@ import Section from '../components/section'
 
 
 import objectDetection from '../public/images/works/object_detector_eyecatch.png'
-import imgClassifier from '/public/images/works/image_classifier.png'
-import retinaImg from '../public/images/works/retina_tracking.png'
+import imgClassifier from '../public/images/works/image_classifier.PNG'
+import retinaImg from '../public/images/works/retina_tracking.PNG'
 import Layout from "../components/layouts/article";
 
 const Works = () => {
