@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com'
 
 
 
-const contactMe = () => {
+const ContactMe = () => {
 
     function sendEmail(e) {
         e.preventDefault();
@@ -38,7 +38,7 @@ const contactMe = () => {
             <form onSubmit={sendEmail}>
             <Stack spacing={4}>
             <FormControl isRequired>
-                <InputGroup><InputLeftAddon children={<InfoIcon />} />
+                <InputGroup><InputLeftAddon> <InfoIcon /> </InputLeftAddon>
 
                 <Input type="text" 
                 placeholder="Name"  
@@ -52,7 +52,7 @@ const contactMe = () => {
                 </FormControl>
                 <FormControl isRequired>
                 <InputGroup>
-                <InputLeftAddon children={ <EmailIcon />} />
+                <InputLeftAddon>  <EmailIcon /> </InputLeftAddon>
 
                 <Input type="email" 
                 color='teal'
@@ -67,7 +67,7 @@ const contactMe = () => {
                   </FormControl>
                 <FormControl isRequired>
                 <InputGroup>
-                <InputLeftAddon children={ <PhoneIcon />} />
+                <InputLeftAddon> <PhoneIcon /> </InputLeftAddon>
                 <NumberInput> <NumberInputField inputMode='tel'
                  color='teal'
                   name='phone'
@@ -92,4 +92,4 @@ const contactMe = () => {
     )
 }
 
-export default contactMe
+export default ContactMe

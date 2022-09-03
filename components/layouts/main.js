@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { Box, Container } from '@chakra-ui/react'
 import Navbar from '../navbar.js'
 import dynamic from 'next/dynamic.js'
-import NoSsr from '../no-ssr'
 import VoxelDogLoader from '../voxel-dog-loader'
 
 
