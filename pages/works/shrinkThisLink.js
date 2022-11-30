@@ -28,7 +28,7 @@ const Work = () => {
                     <ListItem>
                     </ListItem>
                     <WorkImage src="/images/works/shrinkLink_01.png" alt="URL Shortner" />
-                    <WorkImage src="/images/works/shrinkLink_02" alt="URL Shortner Results" />
+                    <WorkImage src="/images/works/shrinkLink_02.png" alt="URL Shortner Results" />
                 </List>
             </Container>
         </Layout>
