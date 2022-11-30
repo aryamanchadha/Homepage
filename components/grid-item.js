@@ -20,7 +20,7 @@ export const GridItem = ({children, href, title, thumbnail}) => (
     </Box>
 )
 
-export const WorkGridItem = ({children, id, title, thumbnail, url, inactive, buttonText, gitbuttonText, gitUrl}) => (
+export const WorkGridItem = ({children, id, title, thumbnail, url,srcinactive, inactive, buttonText, gitbuttonText, gitUrl}) => (
     <Box w="100%" align="center">
         <NextLink href={`/works/${id}`}>
             <LinkBox cursor="pointer" pb={5}>
@@ -44,7 +44,7 @@ export const WorkGridItem = ({children, id, title, thumbnail, url, inactive, but
         </NextLink>
         </Box>
         <NextLink href={gitUrl} cursor="pointer">
-        <Button colorScheme = "teal" variant='outline' pr={7} pl={7}>{gitbuttonText}</Button>
+        <Button colorScheme = "teal" variant='outline' disabled={srcinactive} pr={7} pl={7}>{gitbuttonText}</Button>
         </NextLink>
     </Box>
 )
