@@ -9,7 +9,6 @@ import Layout from "../components/layouts/article";
 import drumkit from "../public/images/works/drumkit.png";
 
 const Works = () => {
-   // const thumbObjectDetector = `../public/images/works/object-detector-eyecatch.PNG`
     
     return (
         <Layout>
@@ -20,7 +19,7 @@ const Works = () => {
 
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
-                    <WorkGridItem id="objectDetector" 
+                    <WorkGridItem id="objectDetector"
                     title="React Computer Vision" 
                     thumbnail={objectDetection} 
                     url="https://object-detector-tensorflow.herokuapp.com/" 
@@ -63,7 +62,7 @@ const Works = () => {
                     />
                 </Section>
                 <Section>
-                    <WorkGridItem id="drum-kit" 
+                    <WorkGridItem id="drumkit" 
                     title="Drum Kit" 
                     thumbnail={drumkit} 
                     url="https://aryamanchadha.github.io/drumKit/" 
