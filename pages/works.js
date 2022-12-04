@@ -6,6 +6,7 @@ import objectDetection from '../public/images/works/object_detector_eyecatch.png
 import imgClassifier from '../public/images/works/image_classifier.PNG'
 import retinaImg from '../public/images/works/retina_tracking.PNG'
 import Layout from "../components/layouts/article";
+import drumkit from "../public/images/works/drumkit.png";
 
 const Works = () => {
    // const thumbObjectDetector = `../public/images/works/object-detector-eyecatch.PNG`
@@ -59,6 +60,16 @@ const Works = () => {
                     gitUrl="https://github.com/aryamanchadha/ReactComputerVisionTemplate"
                     gitbuttonText="Source"
                     inactive={true}
+                    />
+                </Section>
+                <Section>
+                    <WorkGridItem id="drum-kit" 
+                    title="Drum Kit" 
+                    thumbnail={drumkit} 
+                    url="https://aryamanchadha.github.io/drumKit/" 
+                    buttonText="Live Demo"
+                    gitUrl="https://github.com/aryamanchadha/Homepage"
+                    gitbuttonText="Source"
                     />
                 </Section>
             </SimpleGrid>
