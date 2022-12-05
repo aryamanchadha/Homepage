@@ -62,7 +62,7 @@ const Works = () => {
                     />
                 </Section>
                 <Section>
-                    <WorkGridItem id="drumkit" 
+                    <WorkGridItem id="drumKit" 
                     title="Drum Kit" 
                     thumbnail={drumkit} 
                     url="https://aryamanchadha.github.io/drumKit/" 
