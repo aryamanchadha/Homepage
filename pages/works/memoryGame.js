@@ -6,19 +6,19 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title="Drum-Kit">
+        <Layout title="Memory-Game">
             <Container>
                 <Title>
-                Drum Kit <Badge>2022</Badge>
+                Memory Game <Badge>2022</Badge>
                 </Title>
                 <P>
-                    A drum Kit that I am working on. You can use this to annoy people.
+                    A memory game where you have to follow the sequence that is displayed on the screen.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://aryamanchadha.github.io/drumKit/">
-                        https://aryamanchadha.github.io/drumKit/ <ExternalLinkIcon mx="2px" />
+                        <Link href="https://aryamanchadha.github.io/memoryGame/">
+                        https://aryamanchadha.github.io/memoryGame/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
@@ -27,7 +27,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                     </ListItem>
-                    <WorkImage src="/images/works/drumkit.png" alt="drum kit" />
+                    <WorkImage src="/images/works/memory_game.png" alt="Memory Game" />
                 </List>
             </Container>
         </Layout>

@@ -7,6 +7,7 @@ import imgClassifier from '../public/images/works/image_classifier.PNG'
 import retinaImg from '../public/images/works/retina_tracking.PNG'
 import Layout from "../components/layouts/article";
 import drumkit from "../public/images/works/drumkit.png";
+import memoryGame from "../public/images/works/memory_game.png"
 
 const Works = () => {
     
@@ -68,6 +69,16 @@ const Works = () => {
                     url="https://aryamanchadha.github.io/drumKit/" 
                     buttonText="Live Demo"
                     gitUrl="https://github.com/aryamanchadha/Homepage"
+                    gitbuttonText="Source"
+                    />
+                </Section>
+                                <Section>
+                    <WorkGridItem id="memoryGame" 
+                    title="Memory Game" 
+                    thumbnail={memoryGame} 
+                    url="https://aryamanchadha.github.io/memoryGame/" 
+                    buttonText="Live Demo"
+                    gitUrl="https://github.com/aryamanchadha/memoryGame"
                     gitbuttonText="Source"
                     />
                 </Section>
