@@ -2,7 +2,6 @@ import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import { WorkGridItem } from "../components/grid-item";
 import shrinkLink from '../public/images/works/shrinkLink.png'
 import Section from '../components/section'
-import objectDetection from '../public/images/works/object_detector_eyecatch.png'
 import imgClassifier from '../public/images/works/image_classifier.PNG'
 import retinaImg from '../public/images/works/retina_tracking.PNG'
 import Layout from "../components/layouts/article";
