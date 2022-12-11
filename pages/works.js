@@ -20,16 +20,6 @@ const Works = () => {
 
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
-                    <WorkGridItem id="objectDetector"
-                    title="React Computer Vision" 
-                    thumbnail={objectDetection} 
-                    url="https://object-detector-tensorflow.herokuapp.com/" 
-                    buttonText="Live Demo"
-                    gitUrl="https://github.com/aryamanchadha/ReactComputerVisionTemplate"
-                    gitbuttonText="Source"
-                    />
-                </Section>
-                <Section>
                     <WorkGridItem id="shrinkThisLink"
                     title="URL Shortner"
                     thumbnail={shrinkLink}
