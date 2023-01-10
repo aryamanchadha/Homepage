@@ -6,29 +6,29 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title="Shrink this Link">
+        <Layout title="ToDo List">
             <Container>
                 <Title>
-                Shrink This Link <Badge>2022</Badge>
+                ToDO List App <Badge>2022</Badge>
                 </Title>
                 <P>
-                    A URL Shortner service complete with a front end, a back end and a database connection. This was made as a practice in how databases communicate with apps and in designing a simple back end.
+                    A todo list app I deployed online, It includes EJS templating to create new lists dynamically. I have used mongoDB database to store the list data.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://shrink-this-link.herokuapp.com/app">
-                        https://shrink-this-link.herokuapp.com/app <ExternalLinkIcon mx="2px" />
+                        <Link href="https://mighty-mesa-94233.herokuapp.com/">
+                        https://mighty-mesa-94233.herokuapp.com/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>NodeJS, React, Python, Firebase and Heroku</span>
+                        <span>NodeJS, HTML, EJS, mongoDB and Heroku</span>
                     </ListItem>
                     <ListItem>
                     </ListItem>
-                    <WorkImage src="/images/works/shrinkLink_01.png" alt="URL Shortner" />
-                    <WorkImage src="/images/works/shrinkLink_02.png" alt="URL Shortner Results" />
+                    <WorkImage src="/images/works/todolist.png" alt="ToDo List" />
+                    <WorkImage src="/images/works/todolist_lists.png" alt="List view" />
                 </List>
             </Container>
         </Layout>

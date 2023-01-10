@@ -7,6 +7,7 @@ import retinaImg from '../public/images/works/retina_tracking.PNG'
 import Layout from "../components/layouts/article";
 import drumkit from "../public/images/works/drumkit.png";
 import memoryGame from "../public/images/works/memory_game.png"
+import todolist from "../public/images/works/todolist.png"
 
 const Works = () => {
     
@@ -23,6 +24,17 @@ const Works = () => {
                     title="URL Shortner"
                     thumbnail={shrinkLink}
                     url="https://shrink-this-link.herokuapp.com/app"
+                    buttonText="Live Demo"
+                    gitUrl=""
+                    gitbuttonText="Source"
+                    srcinactive={true}
+                    />
+                </Section>
+                <Section>
+                    <WorkGridItem id="todolist"
+                    title="ToDo List App"
+                    thumbnail={todolist}
+                    url="https://mighty-mesa-94233.herokuapp.com/"
                     buttonText="Live Demo"
                     gitUrl=""
                     gitbuttonText="Source"
