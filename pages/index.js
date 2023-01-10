@@ -70,10 +70,6 @@ const Page = () => {
                     Bio
                 </Heading>
                 <BioSection>
-                    <BioYear>1998</BioYear>
-                    Born in Punjab (ਪੰਜਾਬ), India.
-                </BioSection>
-                <BioSection>
                     <BioYear>2020</BioYear>
                     Completed the Bachelors in computer science program at the University of the Fraser Valley.
                 </BioSection>
