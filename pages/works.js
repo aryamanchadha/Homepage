@@ -58,7 +58,7 @@ const Works = () => {
                     thumbnail={retinaImg} 
                     url="https://object-detector-tensorflow.herokuapp.com/" 
                     buttonText="Live Demo"
-                    gitUrl="https://github.com/aryamanchadha/ReactComputerVisionTemplate"
+                    gitUrl="https://github.com/aryamanchadha/eye-tracking-through-webcam/blob/main/README.md"
                     gitbuttonText="Source"
                     inactive={true}
                     />
