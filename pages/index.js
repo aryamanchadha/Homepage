@@ -59,7 +59,7 @@ const Page = () => {
                    <NextLink href="/works" passHref>
                         <Button rightIcon={<ChevronRightIcon />} colorScheme = "teal">My Portfolio</Button>
                     </NextLink>
-                    <NextLink href="https://drive.google.com/uc?export=download&id=1zdDdJIdmAzaXBkR-kHEkAnQQI8XCgIYN" passHref>
+                    <NextLink href="https://drive.google.com/file/d/1YUDJL9vuGJwqUjDMTZP4jlRgoUmSxARd/view?usp=share_link" passHref>
                         <Button ml={5} rightIcon={<ChevronRightIcon />} colorScheme = "teal">Resume</Button>
                     </NextLink>
                 </Box>
