@@ -52,14 +52,14 @@ const Page = () => {
                 <Heading as="h3" variant="section-title">
                     Work
                 </Heading>
-                <Paragraph>Aryaman is an Intranet Admininstrator at Best Buy and a full-stack developer based in Vancouver with a passion for building 
-                and learning about web applications as well as computer vision. He has a knack for solving real-life problems, all the way from planning to execution.
+                <Paragraph>Aryaman is a Help Desk Analyst at The Coalition Studio and a full-stack developer based in Vancouver with a passion for building 
+                and learning about software development with a particualr interest in computer vision. He has a knack for solving real-life problems, all the way from planning to execution.
                 When not at the computer, he likes to paint and make diy projects.</Paragraph>
                 <Box align="center" my={4}>
                    <NextLink href="/works" passHref>
                         <Button rightIcon={<ChevronRightIcon />} colorScheme = "teal">My Portfolio</Button>
                     </NextLink>
-                    <NextLink href="https://drive.google.com/file/d/1PtGxeI7YtG31KMuCoNnrlNPMzIyhp-Ax/view?usp=share_link" passHref>
+                    <NextLink href="https://drive.google.com/file/d/14mOp5Jd_6flrWNtqn6tcTGfEbwozdQIN/view?usp=sharing" passHref>
                         <Button ml={5} rightIcon={<ChevronRightIcon />} colorScheme = "teal">Resume</Button>
                     </NextLink>
                 </Box>
